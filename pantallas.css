@@ -1,0 +1,96 @@
+@media (max-width: 600px) {
+  .nombre_app {
+    align-self: center;
+    justify-self: center;
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    text-shadow: 0 0 10px #fff;
+    color: #fff;
+    text-decoration: underline 1px solid #d0d3d4;
+    margin: 20px 0;
+
+    grid-column: 1/9;
+    grid-row: 1/2;
+  }
+  .input_tareas {
+    padding-left: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+    border: none;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    border-radius: 50px;
+    transition: 0.2s;
+    outline: none;
+
+    grid-column: -2/-8;
+    grid-row: 6/7;
+  }
+  .img_boton {
+    width: 40px;
+    height: 40px;
+  }
+  .btn_agregar_tareas {
+    margin: 0;
+    width: 70px;
+    justify-self: end;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+
+    grid-column: -2/-8;
+    grid-row: 6/7;
+  }
+  .mensaje_limiteTexto {
+    margin: 5px 3px;
+    font-size: 1rem;
+    text-shadow: 0 0 5px #fff;
+    color: #000;
+    padding: 0;
+    border: 0;
+    border-radius: 50px;
+
+    grid-column: 1/4;
+    grid-row: 8/9;
+  }
+  .mensaje_eliminar {
+    text-align: end;
+    font-size: 1rem;
+    margin: 5px 3px;
+    color: #000;
+    padding: 0px;
+    border: 0;
+    border-radius: 50px;
+
+    grid-column: 5/9;
+    grid-row: 8/9;
+  }
+  .Contenedor_Vista_Tareas {
+    margin: 0 10px;
+
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(8, auto);
+  }
+  .cards {
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    background: #16a085;
+    grid-column: 1/9;
+    grid-row: auto;
+    color: #fff;
+    transition: 0.2s;
+    box-shadow: 0px 0px 10px #fff;
+
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+  .descripcion {
+    text-align: center;
+    font-size: 1rem;
+
+    grid-column: -1/-9;
+  }
+}
