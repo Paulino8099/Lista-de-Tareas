@@ -6,6 +6,7 @@ btn_agregar_tareas.addEventListener("click", function () {
   // Agregar tareas al localStorage
   let input_tareas05 = input_tareas.value;
   const tareas01 = { input_tareas05 };
+  //ojdadoj
 
   if (input_tareas05 === "") {
     input_tareas.classList.toggle("error_input");
